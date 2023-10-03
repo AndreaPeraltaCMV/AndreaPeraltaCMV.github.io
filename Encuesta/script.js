@@ -60,3 +60,4 @@ document.getElementById('cabello').addEventListener('change', function() {
   //  }
 //});
 //Esto es la prueba de Kiara
+//Esto es la pruba de Rubí
