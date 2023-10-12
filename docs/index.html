@@ -1,467 +1,199 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encuesta</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+
+    <!-- Hoja de estilos -->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Análisis de Costos para Microempresas</h1>    
-    <form id="encuestaForm">
+    <div class="title">
+        <p class="medicina"><img class="cel" src="medicina.jpg" alt="medicina">Ver resultados clínicos</p>
+        <p class="atencion"><img class="cel" src="celphone.jpg" alt="cel-icon">Atención a clientes: <p class="number">800 8016 900</p></p>
+    </div>
+    <nav class="navbar">
+        <img class="logo" src="logo_consultorio.jpg" alt="logo">
+        <ul class="ul">
+            <li>COVID-19</li>
+            <li>Consultas</li>
+            <li>Teleconsultas</li>
+            <li>Laboratorio clínico</li>
+            <li>Sucursales</li>
+            <li>Promociones</li>
+            <li>Blog</li>
+        </ul>
+    </nav>
 
-        <h2>Aviso de Privacidad</h2>
-        <div class="justificarTexto">
-            <p>Hola somos estudiantes de último semestre de Ingeniería en Matemáticas en la Universidad Autónoma de Chihuahua, motivadas en hacer crecer las pequeñas empresas, actualmente nos encontramos desarrollando una herramienta con el objetivo de apoyarles en la toma de decisiones financieras informadas.
-                Debido a que creemos en el potencial de su empresa queremos invitarle a formar parte de nuestra muestra de estudio, destacando que sus datos serán tratados de forma totalmente confidencial y bajo el compromiso de ser eliminados por completo al concluir el análisis.
-                Como beneficio usted obtendrá los resultados del estudio, así como una capacitación del total de las recomendaciones estudiadas al rededor de estos.
-                Le recordamos que su participación no solo beneficiará su empresa, sino también contribuirá al crecimiento de otras microempresas en situaciones similares. Agradecemos su consideración y esperamos la posibilidad de colaborar juntos en este emocionante proyecto.
-                        </p>
+    <header>
+        <div class="navigate">
+            <p>Ir al inicio</p>
+            <p>|</p>
+            <p>Consultas</p>
+            <p>|</p>
+            <p>Nutriología</p>
         </div>
 
-        <fieldset>
-            <legend><h3>Información de Contacto</h3></legend>
+        <div class="buttons">
+            <p class="b1">Consulta Médica</p>
+            <p class="b2">Nutriología</p>
+            <p class="b3">Planificación Familiar</p>
+            <p class="b4">Control de embarazo</p>
+        </div>
+
+        <!-- Consultar si se agrega la sección del botón y y el banner con horarios, precios, etc -->
+        <p class="header_title">Consulta Nutricional -Nutriólogos <img class="h3_title" src="apple.jpg" alt="apple_icon"></p>
+        <p class="header_title_text">Ven con nosotros por tu consulta en nutrición. Contamos con el mejor equipo de Nutriólogas y Nutriólogos expertos en alimentación, nutrición y dietética para la salud y enfermedad.</p>
+    </header>
+
+    <section class="consultorios">
+        <div class="consult">
+            <p class="consultorios_text">Horario: sujeto a consultorio.</p>
+
+            <div class="consul_titles">
+                <p class="consultorios_text">Teléfono:</p><p class="text_2">800 801 69 00</p>
+            </div>
+
+            <div class="consul_titles">
+                <p class="consultorios_text">Precio de consulta: </p><p class="text_2">$100.00 MXN</p>
+            </div>
+
+            <div class="consul_titles">
+                <p class="consultorios_text">Aceptamos: </p><p class="text_2">Tarjeta de crédito, débito y efectivo1</p>
+            </div>
+
+            <div class="consul_titles">
+                <p class="consultorios_text">Disponibilidad: </p><p class="text_2">Ciudad de México, Estado de México y Querétaro</p>
+            </div>
+
+            <div class="pseudobox">
+                <button class="pseudo_button">Ubica los consultorios participantes</button>
+    
+               <p class="pseudotext">El pago se realiza directamente en mostrador de farmacia.</p>
+            </div>
+
+
+        </div>
+        <div>
+            <img src="header_img.jpg" alt="header_img" class="header_img">
+        </div>
+    </section>
+    
+    <section>
+        <div class="div-section">
+        <h1>Tu intestino es como un cerebro y una fuente de salud mental</h1>
+
         
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
-            
-            <label for="edad">Edad:</label>
-            <input type="number" id="edad" name="edad" required>
+        <div class="img1">
+            <img src="imagen_1.jpg" alt="img1" class="imagen1">
+        </div>
+        </div>
 
-            <label for="correo">Correo Electrónico:</label>
-            <input type="text" id="correo" name="correo" required>
+        <div class="title-text">
+            <p class="header_title">Una buena salud intestinal puede ser el punto clave que te lleve a un estado de bienestar, no
+                solo físico sino también mental.</p class="header_title">
+            <p class="note-text">¿Sabías que al intestino se le conoce como el segundo cerebro? Y aunque suene extraño, este
+                título se debe a que por sí solo tiene más neuronas que la médula espinal, pero esto no termina
+                ahí. Nuestra microbiota, o flora intestinal como se le conocía antes, es también la encargada de
+                producir neurotransmisores y sustancias que tienen una relación muy directa con el
+                funcionamiento del cerebro.</p>
+            <p class="note-text">Conoce más de la microbiota intestinal:</p>
+            <a href="https://www.farmaciasanpablo.com.mx/natural/blog/microbiota-intestinal">https://www.farmaciasanpablo.com.mx/natural/blog/microbiota-intestinal</a>
+        </div>
 
-            <label for="telefono">Teléfono:</label>
-            <input type="number" id="telefono" name="telefono" required>
+        <div class="title-text">
+            <p class="header_title">¿Qué son los psicobióticos?</p class="header_title">
+            <p class="note-text">Para decirlo simple, se consideran microorganismos que cuando se administran en cantidades
+                adecuadas, pueden generar beneficios sobre la salud mental, a diferencia de los probióticos que
+                solo influyen en la salud intestinal.</p>
+        </div>
 
-            <label for="resultados">¿Desea usted recibir los resultados del estudio?</label>
-            <select id="resultados" name="resultados">
-                <option value="elegir">Elija una respuesta</option>
-                <option value="si">Sí</option>
-                <option value="no">No</option>
-            </select>
+        <div class="title-text">
+            <p class="header_title">Pero ¿cómo funcionan?</p class="header_title">
+            <p class="note-text">Las formas en que los psicobióticos actúan aún están siendo estudiadas, pero sabemos que
+                pueden enviar mensajes al cerebro de diferentes maneras al producir neurotransmisores que
+                viajan desde el intestino hasta el cerebro. También pueden modular la respuesta al estrés y
+                disminuir la inflamación en el cerebro. Por último, pueden interactuar con el sistema
+                inmunológico y producir compuestos que regulen la función cerebral y atenuar problemas como
+                la depresión, bipolaridad y disminuir la susceptibilidad a enfermedades neurodegenerativas.</p>
+                <p class="note-text">5 beneficios que te ofrecen los psicobióticos:</p>
+                <ul class="ul2">
+                    <li>Regulan el metabolismo de la química cerebral</li>
+                    <li>Reducen el estrés y daño celular</li>
+                    <li>Mejoran la respuesta del sistema inmune y las defensas antiinflamatorias</li>
+                    <li>Producen ácidos grasos de fácil aprovechamiento para el cuerpo</li>
+                    <li>Reducen el crecimiento de bacterias causantes de inflamación y síntomas digestivos</li>
+                </ul>
+                <p class="note-text">El uso de probióticos poco a poco va en aumento y aunque es un tratamiento que está
+                    demostrando ser efectivo, nunca debe anteponerse a un estilo de vida saludable o la supervisión
+                    de un profesional de la salud.</p>
 
-            <label for="recomendaciones">¿Desea usted recibir recomendaciones para su empresa en base a los resultados de este estudio?</label>
-            <select id="recomendaciones" name="recomendaciones">
-                <option value="elegir">Elija una respuesta</option>
-                <option value="si">Sí</option>
-                <option value="no">No</option>
-            </select>
-        </fieldset>
+                    <a target="blank" href="https://www.farmaciasanpablo.com.mx/search/probi%C3%B3ticos?currentPage=0">Cuida tu salud intestinal</a>
 
-        <fieldset>
-            <legend><h3>Información General del Establecimiento</h3></legend>
+                    <p class="note-text">Para una recomendación más específica en cómo mejorar tu salud intestinal y qué tratamientos
+                        puedes usar para alcanzar tu bienestar, acércate a nuestro consultorio con especialidad en
+                        Nutriología para ayudarte de forma más personalizada.</p>
+        </div>
+        <div class="img1">
+            <img src="imagen_2.jpg" alt="img1" class="imagen1">
+        </div>
+        <div class="title-text">
+            <p class="header_title">Fuentes:</p class="header_title">
+            <a target="blank" href="https://nutribiotica.es/eje-intestino-cerebro/psicobioticos/">Los psicobióticos: probióticos para el cerebro, Nutribiotica</a>
+            <a target="blank" href="https://www.bbc.com/mundo/noticias-63118424">Qué son los psicobióticos y cómo estos microorganismos influyen en nuestro estado de
+                ánimo, BBC News, 2022</a>
 
-            <label for="nombre_empresa">Nombre de la Empresa:</label>
-            <input type="text" id="nombre_empresa" name="nombre_empresa" required>
-            
-            <label for="estado">Estado:</label>
-            <input type="text" id="estado" name="estado" required>
+        </div>
 
-            <label for="ciudad">Ciudad:</label>
-            <input type="text" id="ciudad" name="ciudad" required>
 
-            <label for="colonia">Colonia:</label>
-            <input type="text" id="colonia" name="colonia" required>
-        
-            <label for="rubro">Rubro:</label>
-            <select id="rubro" name="rubro">
-                <option value="elegir">Elija una respuesta</option>
-                <option value="belleza">Salud, Belleza y Bienestar</option>
-                <option value="textil">Téxtil (Ropa, Zapatos y Accesorios)</option>
-            </select>
-        </fieldset>
-        
-        <fieldset class="salud-belleza-bienestar seccion">
-            <legend><h3>Sección Salud, Belleza y Bienestar</h3></legend>
-            
-            <label for="servicios">Mayormente los servicios que comercializa su empresa son para el cuidado de:</label>
-            <select id="servicios" name="servicios">
-                <option value="elegir">Elija una respuesta</option>
-                <option value="belleza1">Belleza</option>
-                <option value="salud1">Salud</option>
-                <option value="bienestar1">Bienestar</option>
-            </select>
-            
-            <fieldset class="belleza1 seccion">
-                <legend><h4>Subsección Belleza</h4></legend>
-                
-                De los siguientes servicios responda "Sí" a aquellos que su empresa ofrece:
 
-                <label for="cabello">Cabello:</label>
-                <select id="cabello" name="cabello">
-                    <option value="elegir">Elija una respuesta</option>
-                    <option value="si">Sí</option>
-                    <option value="no">No</option>
-                </select>
+       
+    </section>
 
-                <fieldset class="cabello seccion">
-                    <legend><h4>Cabello</h4></legend>
-                    Marque las herramientas con las que cuenta para brindar este servicio:
+    <footer>
+      <div class="top-footer">
+        <div class="footer-cols">
+            <h1 class="footer-title">Consultas</h1>
+            <p class="footer-text">Consulta médica</p>
+            <p class="footer-text">Nutriología</p>
+            <p class="footer-text">Planificación familiar</p>
+            <p class="footer-text">embarazo</p>
+        </div>
+        <div class="footer-cols">
+            <h1 class="footer-title">Mi Laboratorio</h1>
+            <p class="footer-text">Análisis por especialidad</p>
+            <p class="footer-text">Promociones del mes</p>
+            <p class="footer-text">Resultados de análisis</p>
+            <p class="footer-text">Términos y condiciones análisis</p>
+        </div>
+        <div class="footer-cols">
+            <h1 class="footer-title">Mi Consultorio</h1>
+            <p class="footer-text">Sucursales</p>
+            <p class="footer-text">Teleconsultas</p>
+            <p class="footer-text">Terminos y condiciones</p>
+        </div>
+        <div class="footer-col4">
+            <div>
+              <p class="footer-text">Seguinos en:</p>
+              <img class="socialmedia" src="socialmedia.jpg"   alt="socialmedia">
+              <hr class="hr">
+            </div>
+            <p class="footer-text">Términos y condiciones Telemedicina</p>
+            <p class="footer-text">Aviso de privacidad</p>
+        </div>
 
-                    <label for="tijeras1">Tijeras de corte microdentado:</label>
-                    <select id="tijeras1" name="tijeras1">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
 
-                        <div id="costost1" class="oculto">
-                            <label for="costost1">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costost1" name="costost1">
-                        </div>
-                        
-                        <div id="tiempot1" class="oculto">
-                            <label for="tiempot1">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempot1" name="tiempot1">
-                        </div>
+      </div>
+      <div class="copyright">
+           <p>Todos los derechos reservados 2023 ® Mi Consultorio</p>
+      </div>
+    </footer>
 
-                    <label for="tijeras2" >Tijeras de esculpir:</label>
-                    <select id="tijeras2" name="tijeras2">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costost2" class="oculto">
-                            <label for="costost2">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costost2" name="costost2">
-                        </div>
-                        
-                        <div id="tiempot2" class="oculto">
-                            <label for="tiempot2">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempot2" name="tiempot2">
-                        </div>
-
-                    <label for="tijeras3" >Tijeras de entresacar:</label>
-                    <select id="tijeras3" name="tijeras3">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costost3" class="oculto">
-                            <label for="costost3">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costost3" name="costost3">
-                        </div>
-                        
-                        <div id="tiempot3" class="oculto">
-                            <label for="tiempot3">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempot3" name="tiempot3">
-                        </div>
-
-                    <label for="tijeras4" >Tijeras para desfilar:</label>
-                    <select id="tijeras4" name="tijeras4">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costost4" class="oculto">
-                            <label for="costost4">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costost4" name="costost4">
-                        </div>
-                        
-                        <div id="tiempot4" class="oculto">
-                            <label for="tiempot4">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempot4" name="tiempot4">
-                        </div>
-
-                    <label for="capa" >Capa de corte y peinado:</label>
-                    <select id="capa" name="capa">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosc" class="oculto">
-                            <label for="costosc">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosc" name="costosc">
-                        </div>
-                        
-                        <div id="tiempoc" class="oculto">
-                            <label for="tiempoc">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempoc" name="tiempoc">
-                        </div>
-
-                    <label for="cepillo1" >Cepillos redondos:</label>
-                    <select id="cepillo1" name="cepillo1">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosc1" class="oculto">
-                            <label for="costosc1">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosc1" name="costosc1">
-                        </div>
-                        
-                        <div id="tiempoc1" class="oculto">
-                            <label for="tiempoc1">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempoc1" name="tiempoc1">
-                        </div>
-
-                    <label for="cepillo2" >Cepillos térmicos:</label>
-                    <select id="cepillo2" name="cepillo2">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosc2" class="oculto">
-                            <label for="costosc2">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosc2" name="costosc2">
-                        </div>
-                        
-                        <div id="tiempoc2" class="oculto">
-                            <label for="tiempoc2">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempoc2" name="tiempoc2">
-                        </div>
-
-                    <label for="cepillo3" >Cepillos con cerdas de nylon:</label>
-                    <select id="cepillo3" name="cepillo3">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosc3" class="oculto">
-                            <label for="costosc3">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosc3" name="costosc3">
-                        </div>
-                        
-                        <div id="tiempoc3" class="oculto">
-                            <label for="tiempoc3">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempoc3" name="tiempoc3">
-                        </div>
-
-                    <label for="cepillo4" >Cepillos con forma ovalada:</label>
-                    <select id="cepillo4" name="cepillo4">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosc4" class="oculto">
-                            <label for="costosc4">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosc4" name="costosc4">
-                        </div>
-                        
-                        <div id="tiempoc4" class="oculto">
-                            <label for="tiempoc4">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempoc4" name="tiempoc4">
-                        </div>
-
-                    <label for="cepillo5" >Cepillos con púas finas y redondeadas:</label>
-                    <select id="cepillo5" name="cepillo5">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosc5" class="oculto">
-                            <label for="costosc5">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosc5" name="costosc5">
-                        </div>
-                        
-                        <div id="tiempoc5" class="oculto">
-                            <label for="tiempoc5">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempoc5" name="tiempoc5">
-                        </div>
-
-                    <label for="pinzas" >Pinzas:</label>
-                    <select id="pinzas" name="pinzas">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosp" class="oculto">
-                            <label for="costosp">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosp" name="costosp">
-                        </div>
-                        
-                        <div id="tiempop" class="oculto">
-                            <label for="tiempop">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempop" name="tiempop">
-                        </div>
-
-                    <label for="secadora" >Secadora:</label>
-                    <select id="secadora" name="secadora">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costoss" class="oculto">
-                            <label for="costoss">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costoss" name="costoss">
-                        </div>
-                        
-                        <div id="tiempos" class="oculto">
-                            <label for="tiempos">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempos" name="tiempos">
-                        </div>
-
-                    <label for="plancha" >Plancha:</label>
-                    <select id="plancha" name="plancha">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosp1" class="oculto">
-                            <label for="costosp1">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosp1" name="costosp1">
-                        </div>
-                        
-                        <div id="tiempop1" class="oculto">
-                            <label for="tiempop1">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempop1" name="tiempop1">
-                        </div>
-
-                    <label for="shampoo" >Shampoo:</label>
-                    <select id="shampoo" name="shampoo">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costoss1" class="oculto">
-                            <label for="costoss1">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costoss1" name="costoss1">
-                        </div>
-                        
-                        <div id="tiempos1" class="oculto">
-                            <label for="tiempos1">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempos1" name="tiempos1">
-                        </div>
-
-                    <label for="acondicionador" >Acondicionador:</label>
-                    <select id="acondicionador" name="acondicionador">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosa" class="oculto">
-                            <label for="costosa">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosa" name="costosa">
-                        </div>
-                        
-                        <div id="tiempoa" class="oculto">
-                            <label for="tiempoa">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempoa" name="tiempoa">
-                        </div>
-
-                    <label for="mascarilla" >Mascarilla:</label>
-                    <select id="mascarilla" name="mascarilla">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosm" class="oculto">
-                            <label for="costosm">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosm" name="costosm">
-                        </div>
-                        
-                        <div id="tiempom" class="oculto">
-                            <label for="tiempom">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempom" name="tiempom">
-                        </div>
-
-                    <label for="fijador" >Fijador:</label>
-                    <select id="fijador" name="fijador">
-                        <option value="elegir">Elija una respuesta</option>
-                        <option value="si">Sí</option>
-                        <option value="no">No</option>
-                    </select>
-
-                        <div id="costosf" class="oculto">
-                            <label for="costosf">¿Qué costo tiene para usted este artículo?</label>
-                            <input type="text" id="costosm" name="costosf">
-                        </div>
-                        
-                        <div id="tiempof" class="oculto">
-                            <label for="tiempof">¿Cuál es el tiempo promedio en el que adquiere uno nuevo?</label>
-                            <input type="text" id="tiempof" name="tiempof">
-                        </div>
-
-                        <label for="hom"><h4>Ofrece servicios para:</h4></label>
-                        <select id="hom" name="hom">
-                            <option value="elegir">Elija una respuesta</option>
-                            <option value="hombre">Hombre</option>
-                            <option value="mujer">Mujer</option>
-                            <option value="ambos">Ambos</option>
-                        </select>
-
-                        <fieldset class="hombre seccion">
-                            <legend><h5>Hombre</h5></legend>
-            
-                            <label for="hombre1">¿El costo varía?</label>
-                            <select id="hombre1" name="hombre1">
-                                <option value="elegir">Elija una respuesta</option>
-                                <option value="si">Sí</option>
-                                <option value="no">No</option>
-                            </select>
-        
-                                <div id="criterio" class="oculto">
-                                    <label for="criterio">¿Bajo que criterios?</label>
-                                    <input type="text" id="criterio" name="criterio">
-                                </div>
-                                
-                                <div id="rango" class="oculto">
-                                    <label for="rango">Coloque el rango de precio:</label>
-                                    <input type="text" id="rango" name="rango">
-                                </div>
-
-                                <div id="costoh" class="oculto">
-                                    <label for="costoh">¿Cuál es el precio?</label>
-                                    <input type="text" id="costoh" name="costoh">
-                                </div>
-                        </fieldset>
-
-                        <fieldset class="mujer seccion">
-                            <legend><h5>Mujer</h5></legend>
-            
-                            <label for="mujer1">¿El costo varía?</label>
-                            <select id="mujer1" name="mujer1">
-                                <option value="elegir">Elija una respuesta</option>
-                                <option value="si">Sí</option>
-                                <option value="no">No</option>
-                            </select>
-        
-                                <div id="criteriom" class="oculto">
-                                    <label for="criteriom">¿Bajo que criterios?</label>
-                                    <input type="text" id="criteriom" name="criteriom">
-                                </div>
-                                
-                                <div id="rangom" class="oculto">
-                                    <label for="rangom">Coloque el rango de precio:</label>
-                                    <input type="text" id="rangom" name="rangom">
-                                </div>
-
-                                <div id="costom" class="oculto">
-                                    <label for="costom">¿Cuál es el precio?</label>
-                                    <input type="text" id="costom" name="costom">
-                                </div>
-                        </fieldset>
-
-                        
-                </fieldset>
-
-            </fieldset>
-        </fieldset>
-
-        <fieldset class="ropa-zapatos-accesorios seccion">
-            <legend><h3>Téxtil (Ropa, Zapatos y Accesorios)</h3></legend>
-
-        </fieldset>
-        
-        <input type="submit" value="Enviar">
-    </form>
-
-    <script src="script.js"></script>
 </body>
 </html>
