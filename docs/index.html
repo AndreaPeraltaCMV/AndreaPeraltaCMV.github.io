@@ -1,199 +1,76 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-    <!-- Hoja de estilos -->
-    <link rel="stylesheet" type="text/css" href="styles.css">
-
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap" rel="stylesheet">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&display=swap" rel="stylesheet">  
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Sorteo iPad Pro</title>
 </head>
 <body>
-    <div class="title">
-        <p class="medicina"><img class="cel" src="medicina.jpg" alt="medicina">Ver resultados clínicos</p>
-        <p class="atencion"><img class="cel" src="celphone.jpg" alt="cel-icon">Atención a clientes: <p class="number">800 8016 900</p></p>
-    </div>
-    <nav class="navbar">
-        <img class="logo" src="logo_consultorio.jpg" alt="logo">
-        <ul class="ul">
-            <li>COVID-19</li>
-            <li>Consultas</li>
-            <li>Teleconsultas</li>
-            <li>Laboratorio clínico</li>
-            <li>Sucursales</li>
-            <li>Promociones</li>
-            <li>Blog</li>
-        </ul>
-    </nav>
+	<div class="contenedor">
+		<div class="columna-izquierda">
+			<div class="registro activo" id="registro">
+				<div class="header">
+					<h1>¡Sorteo!</h1>
+					<p>Registrate para participar en el sorteo de un iPad Pro</p>
+				</div>
+		
+				<form class="formulario" id="formulario">
+					<label for="nombre">Nombre</label>
+					<div class="contenedor-input">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+							<path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z"/>
+							<path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
+						</svg>
+						<input type="text" id="nombre" name="nombre" placeholder="Pete Michell">
+					</div>
+		
+					<label for="correo">Correo Electrónico</label>
+					<div class="contenedor-input">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+							<path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+						</svg>
+						<input type="text" id="correo" name="correo" placeholder="correo@correo.com">
+					</div>
+					
+					<label for="telefono">Teléfono</label>
+					<div class="contenedor-input">
+						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone" viewBox="0 0 16 16">
+							<path d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z"/>
+						</svg>
+						<input type="text" id="telefono" name="telefono" placeholder="123 456 789">
+					</div>
+		
+					<div class="contenedor-boton">
+						<button type="submit">
+							Registrame
+							<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+								<path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+							</svg>
+						</button>
+					</div>
+				</form>
+			</div>
 
-    <header>
-        <div class="navigate">
-            <p>Ir al inicio</p>
-            <p>|</p>
-            <p>Consultas</p>
-            <p>|</p>
-            <p>Nutriología</p>
-        </div>
+			<div class="header exito" id="exito">
+				<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+					<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+					<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
+				</svg>
+				<h1>Registrado!</h1>
+				<p>Te mandaremos un correo electrónico si resultas ganador.</p>
+			</div>
+		</div>
 
-        <div class="buttons">
-            <p class="b1">Consulta Médica</p>
-            <p class="b2">Nutriología</p>
-            <p class="b3">Planificación Familiar</p>
-            <p class="b4">Control de embarazo</p>
-        </div>
+		<div class="columna-derecha">
 
-        <!-- Consultar si se agrega la sección del botón y y el banner con horarios, precios, etc -->
-        <p class="header_title">Consulta Nutricional -Nutriólogos <img class="h3_title" src="apple.jpg" alt="apple_icon"></p>
-        <p class="header_title_text">Ven con nosotros por tu consulta en nutrición. Contamos con el mejor equipo de Nutriólogas y Nutriólogos expertos en alimentación, nutrición y dietética para la salud y enfermedad.</p>
-    </header>
+		</div>
+	</div>
 
-    <section class="consultorios">
-        <div class="consult">
-            <p class="consultorios_text">Horario: sujeto a consultorio.</p>
-
-            <div class="consul_titles">
-                <p class="consultorios_text">Teléfono:</p><p class="text_2">800 801 69 00</p>
-            </div>
-
-            <div class="consul_titles">
-                <p class="consultorios_text">Precio de consulta: </p><p class="text_2">$100.00 MXN</p>
-            </div>
-
-            <div class="consul_titles">
-                <p class="consultorios_text">Aceptamos: </p><p class="text_2">Tarjeta de crédito, débito y efectivo1</p>
-            </div>
-
-            <div class="consul_titles">
-                <p class="consultorios_text">Disponibilidad: </p><p class="text_2">Ciudad de México, Estado de México y Querétaro</p>
-            </div>
-
-            <div class="pseudobox">
-                <button class="pseudo_button">Ubica los consultorios participantes</button>
-    
-               <p class="pseudotext">El pago se realiza directamente en mostrador de farmacia.</p>
-            </div>
-
-
-        </div>
-        <div>
-            <img src="header_img.jpg" alt="header_img" class="header_img">
-        </div>
-    </section>
-    
-    <section>
-        <div class="div-section">
-        <h1>Tu intestino es como un cerebro y una fuente de salud mental</h1>
-
-        
-        <div class="img1">
-            <img src="imagen_1.jpg" alt="img1" class="imagen1">
-        </div>
-        </div>
-
-        <div class="title-text">
-            <p class="header_title">Una buena salud intestinal puede ser el punto clave que te lleve a un estado de bienestar, no
-                solo físico sino también mental.</p class="header_title">
-            <p class="note-text">¿Sabías que al intestino se le conoce como el segundo cerebro? Y aunque suene extraño, este
-                título se debe a que por sí solo tiene más neuronas que la médula espinal, pero esto no termina
-                ahí. Nuestra microbiota, o flora intestinal como se le conocía antes, es también la encargada de
-                producir neurotransmisores y sustancias que tienen una relación muy directa con el
-                funcionamiento del cerebro.</p>
-            <p class="note-text">Conoce más de la microbiota intestinal:</p>
-            <a href="https://www.farmaciasanpablo.com.mx/natural/blog/microbiota-intestinal">https://www.farmaciasanpablo.com.mx/natural/blog/microbiota-intestinal</a>
-        </div>
-
-        <div class="title-text">
-            <p class="header_title">¿Qué son los psicobióticos?</p class="header_title">
-            <p class="note-text">Para decirlo simple, se consideran microorganismos que cuando se administran en cantidades
-                adecuadas, pueden generar beneficios sobre la salud mental, a diferencia de los probióticos que
-                solo influyen en la salud intestinal.</p>
-        </div>
-
-        <div class="title-text">
-            <p class="header_title">Pero ¿cómo funcionan?</p class="header_title">
-            <p class="note-text">Las formas en que los psicobióticos actúan aún están siendo estudiadas, pero sabemos que
-                pueden enviar mensajes al cerebro de diferentes maneras al producir neurotransmisores que
-                viajan desde el intestino hasta el cerebro. También pueden modular la respuesta al estrés y
-                disminuir la inflamación en el cerebro. Por último, pueden interactuar con el sistema
-                inmunológico y producir compuestos que regulen la función cerebral y atenuar problemas como
-                la depresión, bipolaridad y disminuir la susceptibilidad a enfermedades neurodegenerativas.</p>
-                <p class="note-text">5 beneficios que te ofrecen los psicobióticos:</p>
-                <ul class="ul2">
-                    <li>Regulan el metabolismo de la química cerebral</li>
-                    <li>Reducen el estrés y daño celular</li>
-                    <li>Mejoran la respuesta del sistema inmune y las defensas antiinflamatorias</li>
-                    <li>Producen ácidos grasos de fácil aprovechamiento para el cuerpo</li>
-                    <li>Reducen el crecimiento de bacterias causantes de inflamación y síntomas digestivos</li>
-                </ul>
-                <p class="note-text">El uso de probióticos poco a poco va en aumento y aunque es un tratamiento que está
-                    demostrando ser efectivo, nunca debe anteponerse a un estilo de vida saludable o la supervisión
-                    de un profesional de la salud.</p>
-
-                    <a target="blank" href="https://www.farmaciasanpablo.com.mx/search/probi%C3%B3ticos?currentPage=0">Cuida tu salud intestinal</a>
-
-                    <p class="note-text">Para una recomendación más específica en cómo mejorar tu salud intestinal y qué tratamientos
-                        puedes usar para alcanzar tu bienestar, acércate a nuestro consultorio con especialidad en
-                        Nutriología para ayudarte de forma más personalizada.</p>
-        </div>
-        <div class="img1">
-            <img src="imagen_2.jpg" alt="img1" class="imagen1">
-        </div>
-        <div class="title-text">
-            <p class="header_title">Fuentes:</p class="header_title">
-            <a target="blank" href="https://nutribiotica.es/eje-intestino-cerebro/psicobioticos/">Los psicobióticos: probióticos para el cerebro, Nutribiotica</a>
-            <a target="blank" href="https://www.bbc.com/mundo/noticias-63118424">Qué son los psicobióticos y cómo estos microorganismos influyen en nuestro estado de
-                ánimo, BBC News, 2022</a>
-
-        </div>
-
-
-
-       
-    </section>
-
-    <footer>
-      <div class="top-footer">
-        <div class="footer-cols">
-            <h1 class="footer-title">Consultas</h1>
-            <p class="footer-text">Consulta médica</p>
-            <p class="footer-text">Nutriología</p>
-            <p class="footer-text">Planificación familiar</p>
-            <p class="footer-text">embarazo</p>
-        </div>
-        <div class="footer-cols">
-            <h1 class="footer-title">Mi Laboratorio</h1>
-            <p class="footer-text">Análisis por especialidad</p>
-            <p class="footer-text">Promociones del mes</p>
-            <p class="footer-text">Resultados de análisis</p>
-            <p class="footer-text">Términos y condiciones análisis</p>
-        </div>
-        <div class="footer-cols">
-            <h1 class="footer-title">Mi Consultorio</h1>
-            <p class="footer-text">Sucursales</p>
-            <p class="footer-text">Teleconsultas</p>
-            <p class="footer-text">Terminos y condiciones</p>
-        </div>
-        <div class="footer-col4">
-            <div>
-              <p class="footer-text">Seguinos en:</p>
-              <img class="socialmedia" src="socialmedia.jpg"   alt="socialmedia">
-              <hr class="hr">
-            </div>
-            <p class="footer-text">Términos y condiciones Telemedicina</p>
-            <p class="footer-text">Aviso de privacidad</p>
-        </div>
-
-
-      </div>
-      <div class="copyright">
-           <p>Todos los derechos reservados 2023 ® Mi Consultorio</p>
-      </div>
-    </footer>
-
+	<script src="js/app.js"></script>
 </body>
 </html>
