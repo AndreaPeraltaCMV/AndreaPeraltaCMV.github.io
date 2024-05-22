@@ -773,38 +773,39 @@ document.addEventListener('DOMContentLoaded', function() {
 
     exportPdfButton.addEventListener('click', function() {
         var element = document.getElementById('calendar');
-        
-        // Detecta si el dispositivo es móvil o no
-        var isMobile = window.matchMedia("only screen and (max-width: 767px)").matches;
-        
-        if (isMobile) {
-            // Configuración para dispositivos móviles
-            var clone = element.cloneNode(true); // Clonar el elemento
-            clone.style.width = '100%';
-            clone.style.height = '100%';
-            
-            html2pdf().from(clone).set({
-                margin: [1.5, 2, 1, 2], // Márgenes menores para móvil
-                filename: 'calendario_mobile.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 3, logging: true, dpi: 96, letterRendering: true},
-                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' } // Orientación vertical para móvil
-            }).save();
+    
+        // Clonar el elemento
+        var clone = element.cloneNode(true);
+    
+        // Obtener las dimensiones reales del elemento
+        var rect = element.getBoundingClientRect();
+        var width = rect.width;
+        var height = rect.height;
+    
+        // Configurar el tamaño del clon para que coincida con las dimensiones reales del elemento
+        clone.style.width = width + 'px';
+        clone.style.height = height + 'px';
+    
+        // Configurar el PDF
+        var pdfConfig = {
+            margin: [0.7, 1.25, 0.7, 1.25], // Márgenes generales
+            filename: 'calendario.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2, logging: true, dpi: 192, letterRendering: true},
+            jsPDF: { unit: 'in', format: 'letter' } // Orientación y formato de página automático
+        };
+    
+        // Ajustar la orientación del PDF según las dimensiones del elemento
+        if (width > height) {
+            pdfConfig.jsPDF.orientation = 'landscape'; // Orientación horizontal si el ancho es mayor que la altura
         } else {
-            // Configuración para dispositivos no móviles (escritorio)
-            var clone = element.cloneNode(true); // Clonar el elemento
-            clone.style.width = '100%';
-            clone.style.height = '100%';
-            
-            html2pdf().from(clone).set({
-                margin: [0.7, 1.2, 0.7, 1.2],
-                filename: 'calendario.pdf',
-                image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 2, logging: true, dpi: 192, letterRendering: true},
-                jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' } // Orientación horizontal para escritorio
-            }).save();
+            pdfConfig.jsPDF.orientation = 'portrait'; // Orientación vertical en otros casos
         }
+    
+        // Generar y guardar el PDF
+        html2pdf().from(clone).set(pdfConfig).save();
     });
+    
     
       
 
