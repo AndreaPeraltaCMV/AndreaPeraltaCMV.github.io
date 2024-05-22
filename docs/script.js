@@ -745,25 +745,40 @@ document.addEventListener('DOMContentLoaded', function() {
 
     exportPdfButton.addEventListener('click', function() {
         var element = document.getElementById('calendar');
-        
-        // Establece el ancho y el alto del contenedor del calendario para el PDF
-        element.style.width = '100px'; // Por ejemplo, establece un ancho de 800px
-        element.style.height = '100px'; // Por ejemplo, establece un alto de 600px
-        
-        html2pdf().from(element).set({
-            margin: [0.7, 1.2, 0.7, 1.2],
-            html2pdf: { aling: 'center' },
-            filename: 'calendario.pdf',
-            image: { type: 'jpeg', quality: 0.98 },
-            html2canvas: { scale: 2, logging: true, dpi: 192, letterRendering: true},
-            jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' } // Cambia la orientación a paisaje
-        }).save();
-
-            // Establece el ancho y el alto del contenedor del calendario para el PDF
-        element.style.width = ''; // Por ejemplo, establece un ancho de 800px
-        element.style.height = ''; // Por ejemplo, establece un alto de 600px
-    });
-
+    
+        // Detecta si el dispositivo es móvil o no
+        var isMobile = window.matchMedia("only screen and (max-width: 767px)").matches;
+    
+        if (isMobile) {
+            // Configuración para dispositivos móviles
+            element.style.width = '100%';
+            element.style.height = '100%';
+            
+            html2pdf().from(element).set({
+                margin: [0.5, 0.5, 0.5, 0.5], // Márgenes menores para móvil
+                filename: 'calendario_mobile.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 1, logging: true, dpi: 96, letterRendering: true},
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' } // Orientación vertical para móvil
+            }).save();
+        } else {
+            // Configuración para dispositivos no móviles (escritorio)
+            element.style.width = '100%';
+            element.style.height = '100%';
+            
+            html2pdf().from(element).set({
+                margin: [0.7, 1.2, 0.7, 1.2],
+                filename: 'calendario.pdf',
+                image: { type: 'jpeg', quality: 0.98 },
+                html2canvas: { scale: 2, logging: true, dpi: 192, letterRendering: true},
+                jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' } // Orientación horizontal para escritorio
+            }).save();
+        }
+    
+        // Restablece el ancho y el alto del contenedor del calendario después de generar el PDF
+        element.style.width = '';
+        element.style.height = '';
+    });    
 
     
 });
