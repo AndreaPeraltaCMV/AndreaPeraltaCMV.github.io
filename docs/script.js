@@ -646,7 +646,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 country: 'costarica',
                 category: 'feriados'
             },
-        // Guatemala
+            {
+                title: 'Noche Buena',
+                start: '2024-12-24',
+                description: 'Noche Buena',
+                country: 'costarica',
+                category: 'feriados'
+            },
+        // Ecuador
         {
             title: 'Evento Ecuador 1',
             start: '2024-05-21',
@@ -766,28 +773,30 @@ document.addEventListener('DOMContentLoaded', function() {
 
     exportPdfButton.addEventListener('click', function() {
         var element = document.getElementById('calendar');
-    
+        
         // Detecta si el dispositivo es móvil o no
         var isMobile = window.matchMedia("only screen and (max-width: 767px)").matches;
-    
+        
         if (isMobile) {
             // Configuración para dispositivos móviles
-            element.style.width = '100%';
-            element.style.height = '100%';
+            var clone = element.cloneNode(true); // Clonar el elemento
+            clone.style.width = '100%';
+            clone.style.height = '100%';
             
-            html2pdf().from(element).set({
-                margin: [0.5, 0.5, 0.5, 0.5], // Márgenes menores para móvil
+            html2pdf().from(clone).set({
+                margin: [1.5, 2, 1, 2], // Márgenes menores para móvil
                 filename: 'calendario_mobile.pdf',
                 image: { type: 'jpeg', quality: 0.98 },
-                html2canvas: { scale: 1, logging: true, dpi: 96, letterRendering: true},
+                html2canvas: { scale: 3, logging: true, dpi: 96, letterRendering: true},
                 jsPDF: { unit: 'in', format: 'letter', orientation: 'portrait' } // Orientación vertical para móvil
             }).save();
         } else {
             // Configuración para dispositivos no móviles (escritorio)
-            element.style.width = '100%';
-            element.style.height = '100%';
+            var clone = element.cloneNode(true); // Clonar el elemento
+            clone.style.width = '100%';
+            clone.style.height = '100%';
             
-            html2pdf().from(element).set({
+            html2pdf().from(clone).set({
                 margin: [0.7, 1.2, 0.7, 1.2],
                 filename: 'calendario.pdf',
                 image: { type: 'jpeg', quality: 0.98 },
@@ -795,11 +804,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 jsPDF: { unit: 'in', format: 'letter', orientation: 'landscape' } // Orientación horizontal para escritorio
             }).save();
         }
+    });
     
-        // Restablece el ancho y el alto del contenedor del calendario después de generar el PDF
-        element.style.width = '';
-        element.style.height = '';
-    });    
+      
 
     
 });
