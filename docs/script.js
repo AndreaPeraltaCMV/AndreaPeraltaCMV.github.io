@@ -805,8 +805,45 @@ document.addEventListener('DOMContentLoaded', function() {
         // Generar y guardar el PDF
         html2pdf().from(clone).set(pdfConfig).save();
     });
+
+    exportPdfButton.addEventListener('click', function() {
+        var element = document.getElementById('calendar');
     
+        // Clonar el elemento
+        var clone = element.cloneNode(true);
     
+        // Obtener las dimensiones reales del elemento
+        var rect = element.getBoundingClientRect();
+        var width = rect.width;
+        var height = rect.height;
+    
+        // Configurar el tamaño del clon para que coincida con las dimensiones reales del elemento
+        clone.style.width = width + 'px';
+        clone.style.height = height + 'px';
+    
+        // Detectar si el dispositivo es móvil o no
+        var isMobile = window.matchMedia("only screen and (max-width: 767px)").matches;
+    
+        // Configurar los márgenes según el dispositivo
+        var margin;
+        if (isMobile) {
+            margin = [1.5, 2, 1, 2]; // Márgenes menores para móvil
+        } else {
+            margin = [0.7, 1.2, 0.7, 1.2]; // Márgenes para escritorio
+        }
+    
+        // Configurar el PDF
+        var pdfConfig = {
+            margin: margin,
+            filename: isMobile ? 'calendario_mobile.pdf' : 'calendario.pdf',
+            image: { type: 'jpeg', quality: 0.98 },
+            html2canvas: { scale: 2, logging: true, dpi: 192, letterRendering: true},
+            jsPDF: { unit: 'in', format: 'letter', orientation: isMobile ? 'portrait' : 'landscape' } // Orientación vertical para móvil y horizontal para escritorio
+        };
+    
+        // Generar y guardar el PDF
+        html2pdf().from(clone).set(pdfConfig).save();
+    });    
       
 
     
