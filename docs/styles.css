@@ -1,0 +1,118 @@
+.calendar-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 85vh; /* Altura total de la ventana */
+}
+
+
+#calendar {
+    font-family: 'Roboto', sans-serif;
+    width: 100%; /* Ajusta el ancho del calendario */
+    max-width: 825px;  /*Ancho máximo para el calendario */
+    height: auto; /* Altura automática para mantener proporciones */
+    min-height: 600px; /* Altura mínima para evitar que se corte */
+}
+
+/* Mantén los estilos anteriores para el contenido del calendario */
+.fc .fc-toolbar-title {
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+.fc .fc-daygrid-day-number {
+    font-size: 1em;
+    font-weight: 400;
+}
+
+.fc .fc-event {
+    font-size: 0.50em;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+}
+
+.filters-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 10vh; /* Altura total de la ventana */
+    width: 57%; /* Define el ancho del contenedor */
+    font-size: .80em;
+    font-weight: 400;
+    font-weight: bold;
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+.button-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 5vh; /* Altura total de la ventana */
+    width: 60%; /* Define el ancho del contenedor */
+    font-size: .80em;
+    font-weight: 400;
+    font-weight: bold;
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
+}
+
+.filter {
+    flex: 1; /* Cada filtro ocupa el mismo espacio */
+}
+
+/* Estilos para las etiquetas de los filtros */
+.filter label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Estilos para las listas desplegables */
+.filter select {
+    width: 99%; /* Ocupar todo el ancho disponible */
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 1px;
+    box-sizing: border-box; /* Considerar el borde y el relleno en el ancho */
+    height: 40px; /* Altura de la lista desplegable */
+    overflow-y: auto; /* Habilitar el desplazamiento vertical si hay muchos elementos */
+    font-size: 0.75em;
+    font-weight: 400;
+}
+
+/* Estilos para las categorías */
+.category-tecnologicos {
+    background-color: #0e86ff; /* Azul */
+    border-color: #0e86ff;
+    color: #ffffff;
+}
+
+.category-culturales {
+    background-color: #be1bff; /* Naranja */
+    border-color: #be1bff;
+    color: #ffffff;
+}
+
+.category-deportivos {
+    background-color: #fb09ff; /* Naranja */
+    border-color: #fb09ff;
+    color: #ffffff;
+}
+
+.category-feriados {
+    background-color: #5728ff; /* Verde */
+    border-color: #5728ff;
+    color: #ffffff;
+}
+
+.category-noferiados {
+    background-color: #002eb7; /* Verde */
+    border-color: #002eb7;
+    color: #ffffff;
+}
+
+/* Estilo para las imágenes de las banderas */
+.fc-event .flag {
+    width: 20px;
+    height: 15px;
+    margin-right: 5px;
+}
