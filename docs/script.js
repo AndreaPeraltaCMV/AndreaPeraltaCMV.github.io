@@ -605,23 +605,44 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Día del amor y la amistad «San Valentín»',
+                title: 'Día del Amor y la Amistad «San Valentín»',
                 start: '2024-02-14',
-                description: 'Día del amor y la amistad «San Valentín»',
+                description: 'Día del Amor y la Amistad «San Valentín»',
                 country: 'costarica',
                 category: 'feriados'
             },
             {
-                title: 'Día del padre',
+                title: 'Día del Padre',
                 start: '2024-06-16',
-                description: 'Día del padre',
+                description: 'Día del Padre',
                 country: 'costarica',
                 category: 'feriados'
             },
             {
-                title: 'Día del padre',
-                start: '2024-06-16',
-                description: 'Día del padre',
+                title: 'Día Internacional del Negro',
+                start: '2024-08-31',
+                description: 'Día internacional del Negro. Se realiza gran desfile en la ciudad de Limón',
+                country: 'costarica',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de los Niños',
+                start: '2024-09-09',
+                description: 'Día de los Niños',
+                country: 'costarica',
+                category: 'feriados'
+            },
+            {
+                title: 'Desfile de Faroles',
+                start: '2024-09-14',
+                description: 'Desfile de Faroles',
+                country: 'costarica',
+                category: 'feriados'
+            },
+            {
+                title: 'Conmemoración próceres Mora y Cañas',
+                start: '2024-09-30',
+                description: 'Conmemoración próceres Mora y Cañas. Se realiza gran desfile en la ciudad de Puntarenas',
                 country: 'costarica',
                 category: 'feriados'
             },
