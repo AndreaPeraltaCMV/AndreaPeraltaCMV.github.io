@@ -611,6 +611,20 @@ document.addEventListener('DOMContentLoaded', function() {
                 country: 'costarica',
                 category: 'feriados'
             },
+            {
+                title: 'Día del padre',
+                start: '2024-06-16',
+                description: 'Día del padre',
+                country: 'costarica',
+                category: 'feriados'
+            },
+            {
+                title: 'Día del padre',
+                start: '2024-06-16',
+                description: 'Día del padre',
+                country: 'costarica',
+                category: 'feriados'
+            },
         // Guatemala
         {
             title: 'Evento Ecuador 1',
@@ -733,8 +747,8 @@ document.addEventListener('DOMContentLoaded', function() {
         var element = document.getElementById('calendar');
         
         // Establece el ancho y el alto del contenedor del calendario para el PDF
-        element.style.width = '100%'; // Por ejemplo, establece un ancho de 800px
-        element.style.height = '100%'; // Por ejemplo, establece un alto de 600px
+        element.style.width = '100px'; // Por ejemplo, establece un ancho de 800px
+        element.style.height = '100px'; // Por ejemplo, establece un alto de 600px
         
         html2pdf().from(element).set({
             margin: [0.7, 1.2, 0.7, 1.2],
