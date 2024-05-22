@@ -806,13 +806,63 @@ document.addEventListener('DOMContentLoaded', function() {
             },
         // México
             // Días feriados
-        {
-            title: 'Evento México 1',
-            start: '2024-05-20',
-            description: 'Descripción del Evento México 1',
-            country: 'mexico',
-            category: 'noferiados'
-        },
+            {
+                title: 'Año Nuevo',
+                start: '2024-01-01',
+                description: 'Año Nuevo',
+                country: 'mexico',
+                category: 'noferiados'
+            },
+            {
+                title: 'Día de la Constitución',
+                start: '2024-02-05',
+                description: 'Día de la Constitución',
+                country: 'mexico',
+                category: 'noferiados'
+            },
+            {
+                title: 'Día de Benito Juárez',
+                start: '2024-03-18',
+                description: 'Día de Benito Juárez',
+                country: 'mexico',
+                category: 'noferiados'
+            },
+            {
+                title: 'Día del Trabajador',
+                start: '2024-05-01',
+                description: 'Día del Trabajador',
+                country: 'mexico',
+                category: 'noferiados'
+            },
+            {
+                title: 'Día de la Independencia de México',
+                start: '2024-09-16',
+                description: 'Día de la Independencia de México',
+                country: 'mexico',
+                category: 'noferiados'
+            },
+            {
+                title: 'Día de la Revolución',
+                start: '2024-11-18',
+                description: 'Día de la Revolución',
+                country: 'mexico',
+                category: 'noferiados'
+            },
+            {
+                title: 'Navidad',
+                start: '2024-12-25',
+                description: 'Navidad',
+                country: 'mexico',
+                category: 'noferiados'
+            },
+            // Días no feriados
+            {
+                title: 'Día de Reyes',
+                start: '2024-01-06',
+                description: 'Día de Reyes',
+                country: 'mexico',
+                category: 'noferiados'
+            },
         {
             title: 'Evento Panamá 1',
             start: '2024-05-21',
