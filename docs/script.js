@@ -654,20 +654,158 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
         // Ecuador
-        {
-            title: 'Evento Ecuador 1',
-            start: '2024-05-21',
-            description: 'Descripción del Evento Ecuador 1',
-            country: 'ecuador',
-            category: 'noferiados'
-        },
-        {
-            title: 'Evento Guatemala 1',
-            start: '2024-05-22',
-            description: 'Descripción del Evento Guatemala 1',
-            country: 'guatemala',
-            category: 'feriados'
-        },
+            // Días feriados
+            {
+                title: 'Año Nuevo',
+                start: '2024-01-01',
+                description: 'Año Nuevo',
+                country: 'ecuador',
+                category: 'feriados'
+            },
+            {
+                title: 'Carnaval',
+                start: '2024-02-12',
+                end: '2024-02-14',
+                description: 'Carnaval',
+                country: 'ecuador',
+                category: 'feriados'
+            },
+            {
+                title: 'Viernes Santo',
+                start: '2024-03-29',
+                description: 'Viernes Santo',
+                country: 'ecuador',
+                category: 'feriados'
+            },
+            {
+                title: 'Día del Trabajador',
+                start: '2024-05-01',
+                description: 'Día del Trabajador',
+                country: 'ecuador',
+                category: 'feriados'
+            },
+            {
+                title: 'Batalla de Pichincha',
+                start: '2024-05-24',
+                description: 'Batalla de Pichincha',
+                country: 'ecuador',
+                category: 'feriados'
+            },
+            {
+                title: 'Primer Grito de Independencia',
+                start: '2024-08-10',
+                description: 'Primer Grito de Independencia',
+                country: 'ecuador',
+                category: 'feriados'
+            },
+            {
+                title: 'Independencia de Guayaquil',
+                start: '2024-10-09',
+                description: 'Independencia de Guayaquil',
+                country: 'ecuador',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de los Difuntos en Ecuador',
+                start: '2024-11-02',
+                description: 'Día de los Difuntos en Ecuador',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Independencia de Cuenca',
+                start: '2024-11-03',
+                description: 'Independencia de Cuenca',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Navidad',
+                start: '2024-12-25',
+                description: 'Navidad',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            // Días no feriados
+            {
+                title: 'Día de San Valentín',
+                start: '2024-02-14',
+                description: 'Día de San Valentín',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Equinoccio de Otoño',
+                start: '2024-03-24',
+                description: 'Equinoccio de Otoño',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Jueves Santo',
+                start: '2024-03-28',
+                description: 'Jueves Santo',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Domingo de Pascua',
+                start: '2024-03-31',
+                description: 'Domingo de Pascua',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Madre',
+                start: '2024-05-12',
+                description: 'Día de la Madre',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Nacimiento de la República del Ecuador',
+                start: '2024-05-13',
+                description: 'Nacimiento de la República del Ecuador',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Día del Padre',
+                start: '2024-06-16',
+                description: 'Día del Padre',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Solsticio de Invierno',
+                start: '2024-06-21',
+                description: 'Solsticio de Invierno',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Natalicio de Simón Bolívar',
+                start: '2024-07-24',
+                description: 'Natalicio de Simón Bolívar',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Fundación de Guayaquil',
+                start: '2024-07-25',
+                description: 'Fundación de Guayaquil',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+            {
+                title: 'Fundación de Quito',
+                start: '2024-12-06',
+                description: 'Fundación de Quito',
+                country: 'guatemala',
+                category: 'feriados'
+            },
+        // México
+            // Días feriados
         {
             title: 'Evento México 1',
             start: '2024-05-20',
