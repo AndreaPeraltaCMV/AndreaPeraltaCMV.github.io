@@ -811,49 +811,49 @@ document.addEventListener('DOMContentLoaded', function() {
                 start: '2024-01-01',
                 description: 'Año Nuevo',
                 country: 'mexico',
-                category: 'noferiados'
+                category: 'feriados'
             },
             {
                 title: 'Día de la Constitución',
                 start: '2024-02-05',
                 description: 'Día de la Constitución',
                 country: 'mexico',
-                category: 'noferiados'
+                category: 'feriados'
             },
             {
                 title: 'Día de Benito Juárez',
                 start: '2024-03-18',
                 description: 'Día de Benito Juárez',
                 country: 'mexico',
-                category: 'noferiados'
+                category: 'feriados'
             },
             {
                 title: 'Día del Trabajador',
                 start: '2024-05-01',
                 description: 'Día del Trabajador',
                 country: 'mexico',
-                category: 'noferiados'
+                category: 'feriados'
             },
             {
                 title: 'Día de la Independencia de México',
                 start: '2024-09-16',
                 description: 'Día de la Independencia de México',
                 country: 'mexico',
-                category: 'noferiados'
+                category: 'feriados'
             },
             {
                 title: 'Día de la Revolución',
                 start: '2024-11-18',
                 description: 'Día de la Revolución',
                 country: 'mexico',
-                category: 'noferiados'
+                category: 'feriados'
             },
             {
                 title: 'Navidad',
                 start: '2024-12-25',
                 description: 'Navidad',
                 country: 'mexico',
-                category: 'noferiados'
+                category: 'feriados'
             },
             // Días no feriados
             {
@@ -861,7 +861,119 @@ document.addEventListener('DOMContentLoaded', function() {
                 start: '2024-01-06',
                 description: 'Día de Reyes',
                 country: 'mexico',
-                category: 'noferiados'
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Constitución Mexicana',
+                start: '2024-02-05',
+                description: 'Día de la Constitución Mexicana',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Carnaval',
+                start: '2024-02-08',
+                description: 'Carnaval',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Natalicio de Benito Juárez',
+                start: '2024-03-21',
+                description: 'Natalicio de Benito Juárez (día histórico)',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Viernes Santo',
+                start: '2024-03-29',
+                description: 'Viernes Santo',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Domingo de Pascua',
+                start: '2024-03-31',
+                description: 'Domingo de Pascua',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de las Madres',
+                start: '2024-05-10',
+                description: 'Día de las Madres',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Corpus Christi',
+                start: '2024-05-30',
+                description: 'Corpus Christi',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Día del Padre',
+                start: '2024-06-16',
+                description: 'Día del Padre',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Solsticio de Verano',
+                start: '2024-06-21',
+                description: 'Solsticio de Verano',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Solsticio de Verano',
+                start: '2024-06-21',
+                description: 'Solsticio de Verano',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Nación Pluricultural',
+                start: '2024-10-12',
+                description: 'Día de la Nación Pluricultural',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de Todos los Santos',
+                start: '2024-11-01',
+                description: 'Día de Todos los Santos',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de Muertos',
+                start: '2024-11-02',
+                description: 'Día de Muertos',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Revolución Mexicana',
+                start: '2024-11-20',
+                description: 'Día de la Revolución Mexicana (día histórico)',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Inmaculada Concepción de la Virgen',
+                start: '2024-12-08',
+                description: 'Día de la Inmaculada Concepción de la Virgen',
+                country: 'mexico',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Virgen de Guadalupe',
+                start: '2024-12-12',
+                description: 'Día de la Virgen de Guadalupe',
+                country: 'mexico',
+                category: 'feriados'
             },
         {
             title: 'Evento Panamá 1',
