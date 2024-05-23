@@ -975,27 +975,402 @@ document.addEventListener('DOMContentLoaded', function() {
                 country: 'mexico',
                 category: 'feriados'
             },
-        {
-            title: 'Evento Panamá 1',
-            start: '2024-05-21',
-            description: 'Descripción del Evento Panamá 1',
-            country: 'panama',
-            category: 'tecnologicos'
-        },
-        {
-            title: 'Evento Perú 1',
-            start: '2024-05-22',
-            description: 'Descripción del Evento Perú 1',
-            country: 'peru',
-            category: 'deportivos'
-        },
-        {
-            title: 'Evento Paraguay 1',
-            start: '2024-05-22',
-            description: 'Descripción del Evento Paraguay 1',
-            country: 'paraguay',
-            category: 'deportivos'
-        },
+        // Panamá
+            // Días feriados
+            {
+                title: 'Año Nuevo',
+                start: '2024-01-01',
+                description: 'Año Nuevo',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de los Mártires',
+                start: '2024-01-09',
+                description: 'Día de los Mártires',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Lunes de Carnaval',
+                start: '2024-02-12',
+                description: 'Lunes de Carnaval',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Martes de Carnaval',
+                start: '2024-02-13',
+                description: 'Martes de Carnaval',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Viernes Santo',
+                start: '2024-03-29',
+                description: 'Viernes Santo',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Día del Trabajo',
+                start: '2024-05-01',
+                description: 'Día del Trabajo',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Toma de Posesión del Presidente Electo 2024',
+                start: '2024-07-01',
+                description: 'Toma de Posesión del Presidente Electo 2024',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Separación de Panamá de Colombia',
+                start: '2024-11-04',
+                description: 'Separación de Panamá de Colombia',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Movimiento de Separación de Colombia  en la Ciudad de Colón',
+                start: '2024-11-05',
+                description: 'Movimiento de Separación de Colombia  en la Ciudad de Colón',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Primer Grito de Independencia',
+                start: '2024-11-11',
+                description: 'Primer Grito de Independencia',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Independencia de España',
+                start: '2024-11-28',
+                description: 'Independencia de España',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Madre',
+                start: '2024-12-09',
+                description: 'Día de la Madre',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Caídos del 20 de Diciembre',
+                start: '2024-12-20',
+                description: 'Caídos del 20 de Diciembre',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Navidad',
+                start: '2024-12-25',
+                description: 'Navidad',
+                country: 'panama',
+                category: 'feriados'
+            },
+            //Días no feriados
+            {
+                title: 'Jueves Santo',
+                start: '2024-03-28',
+                description: 'Jueves Santo',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Víspera de Navidad',
+                start: '2024-12-24',
+                description: 'Víspera de Navidad',
+                country: 'panama',
+                category: 'feriados'
+            },
+            {
+                title: 'Fin de Año',
+                start: '2024-12-31',
+                description: 'Fin de Año',
+                country: 'panama',
+                category: 'feriados'
+            },
+        // Perú
+            // Días feriados
+            {
+                title: 'Año Nuevo',
+                start: '2024-01-01',
+                description: 'Año Nuevo',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Jueves Santo',
+                start: '2024-03-28',
+                description: 'Jueves Santo',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Viernes Santo',
+                start: '2024-03-29',
+                description: 'Viernes Santo',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Domingo de Resurrección',
+                start: '2024-03-31',
+                description: 'Domingo de Resurrección',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Día del Trabajador',
+                start: '2024-05-01',
+                description: 'Día del Trabajador',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Festividad de San Pedro y San Pablo',
+                start: '2024-06-29',
+                description: 'Festividad de San Pedro y San Pablo',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Declaración de la Independencia',
+                start: '2024-07-28',
+                description: 'Declaración de la Independencia',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Fiestas Patrias',
+                start: '2024-07-28',
+                end: '2024-07-30',
+                description: 'Fiestas Patrias',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Festividad de Santa Rosa de Lima',
+                start: '2024-08-30',
+                description: 'Festividad de Santa Rosa de Lima',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Celebración de la Batalla de Angamos',
+                start: '2024-10-08',
+                description: 'Celebración de la Batalla de Angamos',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de Todos los Santos',
+                start: '2024-11-01',
+                description: 'Día de Todos los Santos',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Inmaculada Concepción',
+                start: '2024-12-08',
+                description: 'Día de la Inmaculada Concepción',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Navidad',
+                start: '2024-12-25',
+                description: 'Navidad',
+                country: 'peru',
+                category: 'feriados'
+            },
+            // Días no feriados
+            {
+                title: 'Aniversario de Lima',
+                start: '2024-01-18',
+                description: 'Aniversario de Lima',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Carnaval de Cajamarca',
+                start: '2024-02-10',
+                description: 'Carnaval de Cajamarca',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Corpus Christi',
+                start: '2024-05-30',
+                description: 'Corpus Christi',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Año Nuevo Andino',
+                start: '2024-06-21',
+                description: 'Año Nuevo Andino',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Solsticio de Invierno',
+                start: '2024-06-21',
+                description: 'Solsticio de Invierno',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Día del Descubrimiento de Machu Picchu',
+                start: '2024-07-07',
+                description: 'Día del Descubrimiento de Machu Picchu',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Fundación de la Ciudad de Arequipa',
+                start: '2024-08-15',
+                description: 'Fundación de la Ciudad de Arequipa',
+                country: 'peru',
+                category: 'feriados'
+            },
+            {
+                title: 'Batalla de Ayacucho',
+                start: '2024-12-09',
+                description: 'Batalla de Ayacucho',
+                country: 'peru',
+                category: 'feriados'
+            },
+        // Paraguay
+            // Días feriados
+            {
+                title: 'Año Nuevo',
+                start: '2024-01-01',
+                description: 'Año Nuevo',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de los Héroes',
+                start: '2024-03-01',
+                description: 'Día de los Héroes',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Jueves Santo',
+                start: '2024-04-08',
+                description: 'Jueves Santo',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Viernes Santo',
+                start: '2024-04-09',
+                description: 'Viernes Santo',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Día del Trabajador',
+                start: '2024-05-01',
+                description: 'Día del Trabajador',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Independencia Patria',
+                start: '2024-05-14',
+                end: '2024-05-16',
+                description: 'Independencia Patria',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Paz del Chaco',
+                start: '2024-06-12',
+                description: 'Paz del Chaco',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Fundación de Asunción',
+                start: '2024-08-15',
+                description: 'Fundación de Asunción',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Batalla de Boqueron',
+                start: '2024-09-29',
+                description: 'Batalla de Boqueron',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Virgen de Caacupe',
+                start: '2024-12-08',
+                description: 'Día de la Virgen de Caacupe',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Navidad',
+                start: '2024-12-25',
+                description: 'Navidad',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            // Días no feriados
+            {
+                title: 'Día del Mar',
+                start: '2024-02-24',
+                description: 'Día del Mar',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Madre',
+                start: '2024-05-15',
+                description: 'Día de la Madre',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Día del Padre',
+                start: '2024-06-16',
+                description: 'Día deL Padre',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Amistad',
+                start: '2024-07-30',
+                description: 'Día de la Amistad',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Día del Niño Paraguayo',
+                start: '2024-08-16',
+                description: 'Día del Niño Paraguayo',
+                country: 'paraguay',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de la Primavera',
+                start: '2024-09-21',
+                description: 'Día de la Primavera',
+                country: 'paraguay',
+                category: 'feriados'
+            },
         // Agrega más eventos según sea necesario
     ];
 
