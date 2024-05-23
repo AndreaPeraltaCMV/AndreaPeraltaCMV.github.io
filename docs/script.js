@@ -31,7 +31,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 title: 'Viernes Santo',
-                start: '2024-04-05',
+                start: '2024-03-29',
                 description: 'Viernes Santo',
                 country: 'bolivia',
                 category: 'feriados'
@@ -65,9 +65,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Todos Santos (Día de los Difuntos)',
+                title: 'Día de Todos los Santos',
+                start: '2024-11-01',
+                description: 'Día de Todos los Santos',
+                country: 'bolivia',
+                category: 'feriados'
+            },
+            {
+                title: 'Día de los Difuntos',
                 start: '2024-11-02',
-                description: 'Todos Santos (Día de los Difuntos)',
+                description: 'Día de los Difuntos',
                 country: 'bolivia',
                 category: 'feriados'
             },
@@ -168,9 +175,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'San Pedro y San Pablo',
+                title: 'Día de San Pedro y San Pablo',
                 start: '2024-06-29',
-                description: 'San Pedro y San Pablo',
+                description: 'Día de San Pedro y San Pablo',
                 country: 'chile',
                 category: 'feriados'
             },
@@ -348,7 +355,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 title: 'Corpus Christi',
-                start: '2024-06-03',
+                start: '2024-05-30',
                 description: 'Corpus Christi',
                 country: 'colombia',
                 category: 'feriados'
@@ -362,7 +369,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 title: 'Día de San Pedro y San Pablo',
-                start: '2024-07-01',
+                start: '2024-06-29',
                 description: 'Día de San Pedro y San Pablo',
                 country: 'colombia',
                 category: 'feriados'
@@ -397,7 +404,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 title: 'Día de Todos los Santos',
-                start: '2024-11-04',
+                start: '2024-11-01',
                 description: 'Día de Todos los Santos',
                 country: 'colombia',
                 category: 'feriados'
@@ -468,9 +475,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Día de Amor y Amistad',
+                title: 'San Valentín',
                 start: '2024-09-21',
-                description: 'Día de Amor y Amistad',
+                description: 'San Valentín',
                 country: 'colombia',
                 category: 'feriados'
             },
@@ -583,16 +590,16 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 title: 'Navidad',
-                start: '2024-12-15',
+                start: '2024-12-25',
                 description: 'Navidad',
                 country: 'costarica',
                 category: 'feriados'
             },
             // Días no feriados
             {
-                title: 'Llegada de los Reyes Magos',
+                title: 'Día de Reyes',
                 start: '2024-01-06',
-                description: 'Llegada de los Reyes Magos',
+                description: 'Día de Reyes',
                 country: 'costarica',
                 category: 'feriados'
             },
@@ -605,9 +612,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Día del Amor y la Amistad «San Valentín»',
+                title: 'San Valentín',
                 start: '2024-02-14',
-                description: 'Día del Amor y la Amistad «San Valentín»',
+                description: 'San Valentín',
                 country: 'costarica',
                 category: 'feriados'
             },
@@ -647,9 +654,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Noche Buena',
+                title: 'Vispera de Navidad',
                 start: '2024-12-24',
-                description: 'Noche Buena',
+                description: 'Vispera de Navidad',
                 country: 'costarica',
                 category: 'feriados'
             },
@@ -678,9 +685,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Día del Trabajador',
+                title: 'Día del Trabajo',
                 start: '2024-05-01',
-                description: 'Día del Trabajador',
+                description: 'Día del Trabajo',
                 country: 'ecuador',
                 category: 'feriados'
             },
@@ -706,9 +713,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Día de los Difuntos en Ecuador',
+                title: 'Día de los Difuntos',
                 start: '2024-11-02',
-                description: 'Día de los Difuntos en Ecuador',
+                description: 'Día de los Difuntos',
                 country: 'guatemala',
                 category: 'feriados'
             },
@@ -728,9 +735,9 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             // Días no feriados
             {
-                title: 'Día de San Valentín',
+                title: 'San Valentín',
                 start: '2024-02-14',
-                description: 'Día de San Valentín',
+                description: 'San Valentín',
                 country: 'guatemala',
                 category: 'feriados'
             },
@@ -749,9 +756,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Domingo de Pascua',
+                title: 'Domingo de Resurección',
                 start: '2024-03-31',
-                description: 'Domingo de Pascua',
+                description: 'Domingo de Resurección',
                 country: 'guatemala',
                 category: 'feriados'
             },
@@ -828,9 +835,9 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Día del Trabajador',
+                title: 'Día del Trabajo',
                 start: '2024-05-01',
-                description: 'Día del Trabajador',
+                description: 'Día del Trabajo',
                 country: 'mexico',
                 category: 'feriados'
             },
@@ -843,7 +850,7 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 title: 'Día de la Revolución',
-                start: '2024-11-18',
+                start: '2024-11-20',
                 description: 'Día de la Revolución',
                 country: 'mexico',
                 category: 'feriados'
@@ -864,16 +871,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Día de la Constitución Mexicana',
-                start: '2024-02-05',
-                description: 'Día de la Constitución Mexicana',
+                title: 'Carnaval',
+                start: '2024-02-08',
+                description: 'Carnaval',
                 country: 'mexico',
                 category: 'feriados'
             },
             {
-                title: 'Carnaval',
-                start: '2024-02-08',
-                description: 'Carnaval',
+                title: 'San Valentín',
+                start: '2024-02-14',
+                description: 'San Valentín',
                 country: 'mexico',
                 category: 'feriados'
             },
@@ -892,16 +899,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Domingo de Pascua',
+                title: 'Domingo de Resurección',
                 start: '2024-03-31',
-                description: 'Domingo de Pascua',
+                description: 'Domingo de Resurección',
                 country: 'mexico',
                 category: 'feriados'
             },
             {
-                title: 'Día de las Madres',
+                title: 'Día de la Madre',
                 start: '2024-05-10',
-                description: 'Día de las Madres',
+                description: 'Día de la Madre',
                 country: 'mexico',
                 category: 'feriados'
             },
@@ -948,23 +955,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Día de Muertos',
+                title: 'Día de los Difuntos',
                 start: '2024-11-02',
-                description: 'Día de Muertos',
+                description: 'Día de los Difuntos',
                 country: 'mexico',
                 category: 'feriados'
             },
             {
-                title: 'Día de la Revolución Mexicana',
-                start: '2024-11-20',
-                description: 'Día de la Revolución Mexicana (día histórico)',
-                country: 'mexico',
-                category: 'feriados'
-            },
-            {
-                title: 'Día de la Inmaculada Concepción de la Virgen',
+                title: 'Día de la Inmaculada Concepción',
                 start: '2024-12-08',
-                description: 'Día de la Inmaculada Concepción de la Virgen',
+                description: 'Día de la Inmaculada Concepción',
                 country: 'mexico',
                 category: 'feriados'
             },
@@ -992,16 +992,10 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Lunes de Carnaval',
+                title: 'Carnaval',
                 start: '2024-02-12',
-                description: 'Lunes de Carnaval',
-                country: 'panama',
-                category: 'feriados'
-            },
-            {
-                title: 'Martes de Carnaval',
-                start: '2024-02-13',
-                description: 'Martes de Carnaval',
+                end: '2024-02-14',
+                description: 'Carnaval',
                 country: 'panama',
                 category: 'feriados'
             },
@@ -1128,16 +1122,16 @@ document.addEventListener('DOMContentLoaded', function() {
                 category: 'feriados'
             },
             {
-                title: 'Día del Trabajador',
+                title: 'Día del Trabajo',
                 start: '2024-05-01',
-                description: 'Día del Trabajador',
+                description: 'Día del Trabajo',
                 country: 'peru',
                 category: 'feriados'
             },
             {
-                title: 'Festividad de San Pedro y San Pablo',
+                title: 'Día de San Pedro y San Pablo',
                 start: '2024-06-29',
-                description: 'Festividad de San Pedro y San Pablo',
+                description: 'Día de San Pedro y San Pablo',
                 country: 'peru',
                 category: 'feriados'
             },
@@ -1266,22 +1260,22 @@ document.addEventListener('DOMContentLoaded', function() {
             },
             {
                 title: 'Jueves Santo',
-                start: '2024-04-08',
+                start: '2024-03-28',
                 description: 'Jueves Santo',
                 country: 'paraguay',
                 category: 'feriados'
             },
             {
                 title: 'Viernes Santo',
-                start: '2024-04-09',
+                start: '2024-03-29',
                 description: 'Viernes Santo',
                 country: 'paraguay',
                 category: 'feriados'
             },
             {
-                title: 'Día del Trabajador',
+                title: 'Día del Trabajo',
                 start: '2024-05-01',
-                description: 'Día del Trabajador',
+                description: 'Día del Trabajo',
                 country: 'paraguay',
                 category: 'feriados'
             },
